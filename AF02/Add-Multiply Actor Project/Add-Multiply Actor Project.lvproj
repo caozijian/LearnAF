@@ -20,6 +20,9 @@
 					<Item Name="Addition Result Msg" Type="Folder">
 						<Item Name="Addition Result Msg.lvclass" Type="LVClass" URL="../Actors/Calculator Actor/Calculator Acotr Messages/Addition Result Msg/Addition Result Msg.lvclass"/>
 					</Item>
+					<Item Name="Multiplication Result Msg" Type="Folder">
+						<Item Name="Update Multiplication Result Ref Msg.lvclass" Type="LVClass" URL="../Actors/Calculator Actor/Calculator Actor Messages/Update Multiplication Result Ref Msg/Update Multiplication Result Ref Msg.lvclass"/>
+					</Item>
 				</Item>
 			</Item>
 			<Item Name="Addition Actor" Type="Folder">
@@ -36,7 +39,9 @@
 				<Item Name="Multiplication Actor Class" Type="Folder">
 					<Item Name="Multiplication Actor.lvclass" Type="LVClass" URL="../Actors/Multiplication Actor/Multiplication Actor Class/Multiplication Actor.lvclass"/>
 				</Item>
-				<Item Name="Multiplication Actor Messages" Type="Folder"/>
+				<Item Name="Multiplication Actor Messages" Type="Folder">
+					<Item Name="Multiplicate Number Msg.lvclass" Type="LVClass" URL="../Actors/Multiplication Actor/Multiplication Actor Messages/Multiplicate Number Msg/Multiplicate Number Msg.lvclass"/>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
